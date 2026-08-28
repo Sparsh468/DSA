@@ -5,19 +5,21 @@ public:
         if(n==0){
             return 0;
         }
-        sort(nums.begin(),nums.end());
-        int cnt=0;
+        unordered_set<int> st;
         int longest=1;
-        int lastelement=INT_MIN;
         for(int i=0;i<n;i++){
-            if(nums[i]-1==lastelement){
-                cnt++;
-                lastelement=nums[i];
-            }else if(nums[i]!=lastelement){
-                cnt=1;
-                lastelement=nums[i];
+            st.insert(nums[i]);
+        }
+        for(auto it:st){
+            if(st.find(it-1)==st.end()){
+                int cnt=1;
+                int x=it;
+                while(st.find(x+1)!=st.end()){
+                    x=x+1;
+                    cnt++;
+                }
+                longest=max(longest,cnt);
             }
-            longest=max(longest,cnt);
         }
         return longest;
     }
