@@ -14,11 +14,7 @@ public:
     }
     int shipWithinDays(vector<int>& weights, int days) {
         int low=*max_element(weights.begin(),weights.end());
-        int sum=0;
-        for(int i=0;i<weights.size();i++){
-            sum+=weights[i];
-        }
-        int high=sum;
+        int high=accumulate(weights.begin(),weights.end(),0);
         while(low<=high){
             int mid=(low+high)/2;
             if(findDays(weights,mid)<=days){
