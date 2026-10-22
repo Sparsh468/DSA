@@ -6,6 +6,7 @@
 |  |
 | ------- |
 | [1222-queens-that-can-attack-the-king](https://github.com/Sparsh468/DSA/tree/master/1222-queens-that-can-attack-the-king) |
+| [1662-check-if-two-string-arrays-are-equivalent](https://github.com/Sparsh468/DSA/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 | [2089-find-target-indices-after-sorting-array](https://github.com/Sparsh468/DSA/tree/master/2089-find-target-indices-after-sorting-array) |
 ## Matrix
 |  |
@@ -46,4 +47,8 @@
 |  |
 | ------- |
 | [0543-diameter-of-binary-tree](https://github.com/Sparsh468/DSA/tree/master/0543-diameter-of-binary-tree) |
+## String
+|  |
+| ------- |
+| [1662-check-if-two-string-arrays-are-equivalent](https://github.com/Sparsh468/DSA/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 <!---LeetCode Topics End-->
