@@ -15,6 +15,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0415-add-strings](https://github.com/Sparsh468/DSA/tree/master/0415-add-strings) |
 | [1222-queens-that-can-attack-the-king](https://github.com/Sparsh468/DSA/tree/master/1222-queens-that-can-attack-the-king) |
 ## Binary Search
 |  |
@@ -27,6 +28,7 @@
 ## Math
 |  |
 | ------- |
+| [0415-add-strings](https://github.com/Sparsh468/DSA/tree/master/0415-add-strings) |
 | [2235-add-two-integers](https://github.com/Sparsh468/DSA/tree/master/2235-add-two-integers) |
 ## Tree
 |  |
@@ -57,6 +59,7 @@
 ## String
 |  |
 | ------- |
+| [0415-add-strings](https://github.com/Sparsh468/DSA/tree/master/0415-add-strings) |
 | [1662-check-if-two-string-arrays-are-equivalent](https://github.com/Sparsh468/DSA/tree/master/1662-check-if-two-string-arrays-are-equivalent) |
 ## Dynamic Programming
 |  |
